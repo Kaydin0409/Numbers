@@ -3,8 +3,8 @@ package Numbers;
 public class Main {
     public static void main(String[] args) {
 
-        for(int num=1; num<100; num+=2){
-            System.out.println(num+" ");
+        for(int numEven=2; numEven<=100; numEven+=2){
+            System.out.print(numEven+" ");
         }
     }
 }
